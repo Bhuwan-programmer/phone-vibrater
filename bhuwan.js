@@ -1,0 +1,45 @@
+var button=document.getElementById("buttons");
+button.onclick=function(e){
+    e.preventDefault();
+    var vibrate=document.getElementById("vibrate");
+  if(vibrate.value=="1")
+  {
+      window.navigator.vibrate(1000);
+  }
+  if(vibrate.value=="2")
+  {
+      window.navigator.vibrate(2000);
+  }
+  if(vibrate.value=="3")
+  {
+      window.navigator.vibrate(3000);
+  }
+  if(vibrate.value=="4")
+  {
+      window.navigator.vibrate(4000);
+  }
+  if(vibrate.value=="5")
+  {
+      window.navigator.vibrate(5000);
+  }
+  if(vibrate.value=="6")
+  {
+      window.navigator.vibrate(6000);
+  }
+  if(vibrate.value=="7")
+  {
+      window.navigator.vibrate(7000);
+  }
+  if(vibrate.value=="8")
+  {
+      window.navigator.vibrate(8000);
+  }
+  if(vibrate.value=="9")
+  {
+      window.navigator.vibrate(9000);
+  }
+  if(vibrate.value=="10")
+  {
+      window.navigator.vibrate(10000);
+  }
+}
